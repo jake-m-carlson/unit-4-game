@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     var crystals = {
         blueCrystal:
@@ -22,9 +22,9 @@ $(document).ready(function() {
             value: 0
         },
 
-    },
+    };
 
-})
+
 
 var targetNumber = 0;
 var counter = 0;
@@ -32,6 +32,7 @@ var counter = 0;
 var wins = 0;
 var losses = 0;
 
+console.log(counter)
 
 // 1- a number is generated when the page loads between 19-120, and each button is given a valueof 1 -12
 
@@ -46,4 +47,4 @@ var losses = 0;
 // 4 - game restarts
 
 
-
+});
