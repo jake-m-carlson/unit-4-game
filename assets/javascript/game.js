@@ -25,6 +25,14 @@ $(document).ready(function() {
     },
 
 })
+
+var targetNumber = 0;
+var counter = 0;
+
+var wins = 0;
+var losses = 0;
+
+
 // 1- a number is generated when the page loads between 19-120, and each button is given a valueof 1 -12
 
 // 2- user clicks a button to see what value is, value is added to userGuess
